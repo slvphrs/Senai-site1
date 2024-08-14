@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #d70000;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ff0000;
+}
+.content {
+    padding: 16px;
+    margin-top: 50px;
+}
+
+header{
+
+    background-color: rgba(31, 31, 31, 0);
+    text-align: center;
+    padding: 10px;
+
+}  
+.footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer.contact-info{
+    margin: 10px 0;
+} 
+.footer .social-links{
+    margin: 10px 0;
+}
+.footer .copyright {
+    margin: 10px 0;
+}
+
+.footer .social-links a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+.social-links a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
+.logo img{
+    width: 250px;
+    border-radius: 50%;   
+    border: 2px solid rgb(0, 0, 0);
+}
+.logo{
+    text-align: center;
+}
+.sobre img{
+    width: 500px;
+}
+.sobre{
+    text-align: center;
+}
