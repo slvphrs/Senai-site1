@@ -2,9 +2,28 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     padding: 0;
+    
 }
 
+.overlay {
+    position: relative;
+    height: 300px;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, ); 
+    color: white;
+    text-align: center;}
 
+    .imagem-overlay {
+        width: 500px;
+        height: auto;
+        margin-bottom: 20px; 
+    }
+
+    
 .navbar {
     overflow: hidden;
     background-color: #d70000;
@@ -73,12 +92,18 @@ header{
     text-decoration: underline;
 }
 .logo img{
-    width: 250px;
+    width: 70px;
     border-radius: 50%;   
-    border: 2px solid rgb(0, 0, 0);
+    height: 70px;
+    border: 1px solid rgb(0, 0, 0);
 }
 .logo{
-    text-align: center;
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    width: 150px; 
+    height: auto; 
 }
 .sobre img{
     width: 500px;
